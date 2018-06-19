@@ -1,0 +1,415 @@
+body{
+	height: 100%;
+	margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+.conteiner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.header{
+	height: 100px;
+	position: fixed;
+	padding: 1;
+	top: 0;
+  margin-left: 0px;
+  width: 100%;
+  background-color: black;
+
+}
+#logo{
+	padding: 1px;
+	margin-left: 3px;
+	top: 2px;
+	width: 180px;
+	height: 120px;
+	margin-left: 5px;
+}
+.corpo{
+	margin-top: 100px;
+	height: 100%;
+
+}
+.sidenav{
+	height:100%;
+	max-width:200px;
+	top: 100px; 
+	bottom: 0px;
+	position: fixed;
+	background-color: black;
+
+}
+#fotop{
+	max-width: 150px;
+	max-height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+.sidenav ul{
+	list-style: none;
+  padding: 0px;
+  margin-top: 35px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 200px;
+
+
+}
+.sidenav li{
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+
+
+
+}
+.sidenav a{
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+  color: #844364;
+  display: block;
+  transition: 1s background-color;
+
+}
+.sidenav a:hover{
+	background-color: white;
+	width: 200px;
+
+}
+.sidenav a:focus{
+  background-color: white;
+  color: #444;
+
+}
+
+.main{
+	height: 100%;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+  padding: 10px;
+  padding-bottom: 100px;
+
+}
+article{
+  height: 100%;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  padding: 15px;
+  padding-bottom: 100px;
+}
+
+#panel, #flip {
+  align-self: center;
+  padding: 5px;
+  font-family: Roboto;
+  color: #844364;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px #a1a1a1;
+}
+
+#panel {
+  padding: 10px;
+  display: none;
+}
+
+#panel ul{
+  list-style: none;
+  padding: 0px;
+  margin-left: 0;
+  margin-right: 0;
+
+  text-align: center;
+}
+
+#panel li{
+  text-align: center;
+}
+
+#maint{
+	text-align: center;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 20px;
+	color: #a1a1a1;
+
+}
+#trab{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#eca{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+p{
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #000000;
+
+}
+.btn {
+  background-color: #844364;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+.btn:hover {
+  opacity: 1
+}
+#btnpdf {
+  background-color: #844364;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+#btnpdf:hover {
+  opacity: 1
+}
+#btndoc {
+  background-color: #844364;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+#btndoc:hover {
+  opacity: 1
+}
+h4{
+	text-align: left;
+	font-family: Roboto;
+	color: #000000;
+  font-weight: 300;
+
+}
+h5{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+.lista ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+.lista li{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+
+input{
+        height: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+}
+
+form{
+        background-color: #fff;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+}
+section{
+    text-align: -webkit-center;
+   
+}
+
+
+@media only screen and (max-width: 600px){ /* Definir caracteristicas do menu aqui dentro */
+    .modal-content {
+        width: 100%;
+    }
+
+    .conteiner{
+    width: 100%;
+    }
+    .corpo{
+    width: 100%;
+    top: 0;
+    margin: 0;
+    }
+    .main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: center;
+
+    }
+    article{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: center;
+    }
+
+    #fotop{
+        display: none;
+    }
+
+    #logo{
+        float: left;
+        width: 80px;
+        height: 60px;
+
+    }
+
+    .header{
+        width: 100%;
+        height: 60px;
+        position: relative;
+        top: 0;
+        z-index: -0;
+    }
+
+    .sidenav{
+        width: 100%;
+        height: 20px;
+        top: 0;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        float: center;
+        
+    }
+
+    .sidenav ul{
+        width: 100%;
+        list-style: none;
+        top: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+
+    }
+
+    .sidenav li{
+        width: 100%;
+        border-bottom: none;
+        height: 30px;
+        background-color: black;
+        display: inline-block;
+    
+    }
+    .sidenav li a{
+        text-align: center;
+        float: center;
+    }
+    p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #000000;
+    }
+
+    form{
+        position: center;
+        background-color: #fff;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+
+.fa{
+    color: #844364;
+}
+
+.fa:hover{
+    color: black;
+
+}
+form{
+    position: center;
+}
+
+ul.slideshow {
+  list-style:none;
+  width:450px;
+  height:200px;
+  overflow:hidden;
+  position:relative;
+  margin:0;
+  padding:0;
+  
+} 
+
+ul.slideshow li {
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+ul.slideshow li.show {
+  z-index:500;  
+}
+
+ul img {
+  border:none;  
+}
+#first{
+  width: 500px;
+}
+#coin-slider{
+  position:;
+}
+
+div.footer{
+    bottom: 0;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: gray;
+    padding: 10px;
+    max-width: 100%;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
